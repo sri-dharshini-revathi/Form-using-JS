@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel = "stylesheet" href = "form1.css">
+    <meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+</head>
+<body>
+  <script src = "form1.js"></script>
+<form action="" method="get" class="register-form" onsubmit="return false">
+  <div class="form">
+    <h3>Username:</h3>
+    <input type="text" name="name"  id="name" required>
+    <br>
+  </div>
+  <br>
+  <div class="form">
+    <h3>Email ID:</h3>
+    <input type="email" name="email" id="email" required>
+    <br>
+  </div>
+  <br>
+  <div class="form">
+  <h3>Gender:</h3>
+    <div class='raio-button'>
+        <input type="radio" name="gender" value="male" id="gender" required> Male<br>
+        <input type="radio" name="gender" value="female" id="gender" > Female<br>
+        <input type="radio" name="gender" value="other" id="gender" > Other
+        <br>
+        </div>
+    </div>
+    <br>
+    <div class="form">
+	<h3 >Age:</h3>
+    <input type="number" id="age" required />
+    <br>
+    </div>
+    <br>
+  <div class="register">
+    <input type="submit" value="Submit" onclick="myFunction()"/>
+  </div>
+</form>
+</body>
+</html>
